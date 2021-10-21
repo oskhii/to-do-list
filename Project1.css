@@ -1,0 +1,61 @@
+/*Style the body element*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: burlywood;
+}
+/*Style the listed instrcutions*/
+ol  {
+    list-style: decimal inside;
+}
+/*Style the container*/
+.container {
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 50%;
+    background-color: wheat;
+}
+/*Add padding to the input button*/
+#listInput {
+    padding: 10px;
+}
+/*Add padding to the add button*/
+#addButton {
+    padding: 10px;
+}
+/*Style the listed items*/
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: burlywood;
+}
+/*Style the listed items while hovering*/
+ul li:hover {
+    background: gray;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+/*Style the listed items when clicking*/
+ul li.checked {
+    background: green;
+    color: white;
+    text-decoration: line-through; 
+    transition: 1s;   
+}
+/*Style the remove button*/
+#removeButton {
+    float: right;
+}
+/*Style the remove button on hover*/
+#removeButton:hover {
+    cursor: pointer;
+    background: red;
+    color: white;
+    transition: 1s;
+}
+/*Add padding to all listed items*/
+li {
+    padding: 15px;
+}

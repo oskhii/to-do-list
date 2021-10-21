@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="Project1.css">
+		<title>Project 1</title>
+
+	</head>
+
+	<body>
+		<br>
+		<div class="container">
+			<br>
+			<h1>Welcome to Project 1</h1>
+			<h1>To Do List</h1>
+			<br>
+		</div>	
+		<br>	
+		<div class="container">
+			<h2>Instructions</h2>
+			<br>
+			<ol>
+				<li>Type in the text field</li>
+				<li>Click "Add to list"</li>
+				<li>Click an item item to mark as complete</li>
+				<li>Click "Delete" to delete</li>
+			</ol>	
+		</div>		
+		<br>
+		<div class="container">
+			<form id="myList">
+				<br>
+				<br>
+				<input id="listInput" placeholder="Type here...">
+				<button id="addButton" type="button" onclick="listAdd()">Add to list</button>
+			</form>	
+			<br>			
+			<ul id ="list">
+			</ul>
+			<br>
+			<p>List size: <span id="thingsListed">0</span></p>
+		</div>
+
+		<script src="Project1.js"></script>
+	</body>
+
+</html>
